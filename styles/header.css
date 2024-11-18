@@ -4,6 +4,7 @@ header{
   align-items:center;
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #info-profile{
