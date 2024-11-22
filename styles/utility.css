@@ -137,11 +137,6 @@ div.s-card{
     gap: 12px;
   }
 
-  img.icon-logo{
-    height: 28px;
-    width: 28px;
-  }
-
   span{
     font: var(--text-md);
     color: var(--gray-500);
@@ -153,6 +148,13 @@ div.s-card{
    img.arrow{
     height: 20px;
     width: 20px;
+  }
+
+  &:hover {
+    svg{
+      stroke: var(--blue);
+      fill: var(--blue);
+    }
   }
 }
 
